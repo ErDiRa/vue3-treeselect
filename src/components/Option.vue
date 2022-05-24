@@ -81,9 +81,9 @@
 
           return (
             <div class="vue-treeselect__option-arrow-container" onMousedown={this.handleMouseDownOnArrow}>
-              <transition name="vue-treeselect__option-arrow--prepare" appear={true}>
+              <Transition name="vue-treeselect__option-arrow--prepare" appear={true}>
                 <ArrowIcon class={arrowClass} />
-              </transition>
+              </Transition>
             </div>
           )
         }
@@ -185,7 +185,7 @@
 
       renderSubOptions() {
         const { node } = this
-        
+
         if (!node.childrenStates.isLoaded) return null
 
         return node.children.map(childNode => (
@@ -272,9 +272,9 @@
         <div class={listItemClass}>
           {this.renderOption()}
           {node.isBranch ? (
-            <transition name="vue-treeselect__list--transition">
+            <Transition name="vue-treeselect__list--transition">
               {this.renderSubOptionsList()}
-            </transition>
+            </Transition>
           ) : ''}
         </div>
       )

@@ -1,6 +1,7 @@
 <script>
   import { MENU_BUFFER } from '../constants'
   import { watchSize, setupResizeAndScrollEventListeners } from '../utils'
+  import { Transition } from 'vue'
   import Option from './Option'
   import Tip from './Tip'
 

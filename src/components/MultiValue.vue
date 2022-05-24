@@ -2,6 +2,7 @@
 import Input from './Input';
 import MultiValueItem from './MultiValueItem';
 import Placeholder from './Placeholder';
+import { TransitionGroup } from 'vue';
 
   export default {
     name: 'vue-treeselect--multi-value',

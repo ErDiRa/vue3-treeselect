@@ -3,6 +3,7 @@
   import { onLeftClick } from '../utils'
   import Tip from './Tip'
   import ArrowIcon from './icons/Arrow'
+  import { Transition } from 'vue'
 
   let arrowPlaceholder, checkMark, minusMark
 

@@ -7562,6 +7562,64 @@ function stringifyValue(value) {
 const __exports__ = HiddenFieldsvue_type_script_lang_js;
 
 /* harmony default export */ var HiddenFields = (__exports__);
+;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[4]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/icons/Arrow.vue?vue&type=template&id=5d5151cb
+
+var _hoisted_1 = {
+  xmlns: "http://www.w3.org/2000/svg",
+  viewBox: "0 0 292.362 292.362"
+};
+
+var _hoisted_2 = /*#__PURE__*/(0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createElementVNode)("path", {
+  d: "M286.935 69.377c-3.614-3.617-7.898-5.424-12.848-5.424H18.274c-4.952 0-9.233 1.807-12.85 5.424C1.807 72.998 0 77.279 0 82.228c0 4.948 1.807 9.229 5.424 12.847l127.907 127.907c3.621 3.617 7.902 5.428 12.85 5.428s9.233-1.811 12.847-5.428L286.935 95.074c3.613-3.617 5.427-7.898 5.427-12.847 0-4.948-1.814-9.229-5.427-12.85z"
+}, null, -1);
+
+var _hoisted_3 = [_hoisted_2];
+function Arrowvue_type_template_id_5d5151cb_render(_ctx, _cache, $props, $setup, $data, $options) {
+  return (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.openBlock)(), (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createElementBlock)("svg", _hoisted_1, _hoisted_3);
+}
+;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/icons/Arrow.vue?vue&type=script&lang=js
+/* harmony default export */ var Arrowvue_type_script_lang_js = ({
+  name: 'vue-treeselect--arrow'
+});
+// EXTERNAL MODULE: ./node_modules/vue-loader/dist/exportHelper.js
+var exportHelper = __webpack_require__(3744);
+;// CONCATENATED MODULE: ./src/components/icons/Arrow.vue
+
+
+
+
+;
+const Arrow_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(Arrowvue_type_script_lang_js, [['render',Arrowvue_type_template_id_5d5151cb_render]])
+
+/* harmony default export */ var Arrow = (Arrow_exports_);
+;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[4]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/icons/Delete.vue?vue&type=template&id=12b4a02e
+
+var Deletevue_type_template_id_12b4a02e_hoisted_1 = {
+  xmlns: "http://www.w3.org/2000/svg",
+  viewBox: "0 0 348.333 348.333"
+};
+
+var Deletevue_type_template_id_12b4a02e_hoisted_2 = /*#__PURE__*/(0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createElementVNode)("path", {
+  d: "M336.559 68.611L231.016 174.165l105.543 105.549c15.699 15.705 15.699 41.145 0 56.85-7.844 7.844-18.128 11.769-28.407 11.769-10.296 0-20.581-3.919-28.419-11.769L174.167 231.003 68.609 336.563c-7.843 7.844-18.128 11.769-28.416 11.769-10.285 0-20.563-3.919-28.413-11.769-15.699-15.698-15.699-41.139 0-56.85l105.54-105.549L11.774 68.611c-15.699-15.699-15.699-41.145 0-56.844 15.696-15.687 41.127-15.687 56.829 0l105.563 105.554L279.721 11.767c15.705-15.687 41.139-15.687 56.832 0 15.705 15.699 15.705 41.145.006 56.844z"
+}, null, -1);
+
+var Deletevue_type_template_id_12b4a02e_hoisted_3 = [Deletevue_type_template_id_12b4a02e_hoisted_2];
+function Deletevue_type_template_id_12b4a02e_render(_ctx, _cache, $props, $setup, $data, $options) {
+  return (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.openBlock)(), (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createElementBlock)("svg", Deletevue_type_template_id_12b4a02e_hoisted_1, Deletevue_type_template_id_12b4a02e_hoisted_3);
+}
+;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/icons/Delete.vue?vue&type=script&lang=js
+/* harmony default export */ var Deletevue_type_script_lang_js = ({
+  name: 'vue-treeselect--x'
+});
+;// CONCATENATED MODULE: ./src/components/icons/Delete.vue
+
+
+
+
+;
+const Delete_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(Deletevue_type_script_lang_js, [['render',Deletevue_type_template_id_12b4a02e_render]])
+
+/* harmony default export */ var Delete = (Delete_exports_);
 // EXTERNAL MODULE: ./node_modules/lodash/debounce.js
 var debounce = __webpack_require__(3279);
 var debounce_default = /*#__PURE__*/__webpack_require__.n(debounce);
@@ -7610,6 +7668,7 @@ function deepExtend(target, source) {
   return target;
 }
 ;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Input.vue?vue&type=script&lang=js
+
 
 
 
@@ -7851,14 +7910,14 @@ var keysThatRequireMenuBeingOpen = [KEY_CODES.ENTER, KEY_CODES.END, KEY_CODES.HO
         });
       }
 
-      return (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createVNode)("div", (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.mergeProps)({
+      return h((0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createVNode)("div", (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.mergeProps)({
         "class": "vue-treeselect__input-container"
-      }, props), [children]);
+      }, props), [children]));
     },
     renderInput: function renderInput() {
       var h = this.$createElement;
       var instance = this.instance;
-      return (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createVNode)("input", {
+      return h((0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createVNode)("input", {
         "ref": "input",
         "class": "vue-treeselect__input",
         "type": "text",
@@ -7872,14 +7931,14 @@ var keysThatRequireMenuBeingOpen = [KEY_CODES.ENTER, KEY_CODES.END, KEY_CODES.HO
         "onBlur": this.onBlur,
         "onKeydown": this.onKeyDown,
         "onMousedown": this.onMouseDown
-      }, null);
+      }, null));
     },
     renderSizer: function renderSizer() {
       var h = this.$createElement;
-      return (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createVNode)("div", {
+      return h((0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createVNode)("div", {
         "ref": "sizer",
         "class": "vue-treeselect__sizer"
-      }, [this.value]);
+      }, [this.value]));
     },
     updateInputWidth: function updateInputWidth() {
       this.inputWidth = Math.max(MIN_INPUT_WIDTH, this.$refs.sizer.scrollWidth + 15);
@@ -7900,97 +7959,6 @@ var keysThatRequireMenuBeingOpen = [KEY_CODES.ENTER, KEY_CODES.END, KEY_CODES.HO
 const Input_exports_ = Inputvue_type_script_lang_js;
 
 /* harmony default export */ var Input = (Input_exports_);
-;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Placeholder.vue?vue&type=script&lang=js
-
-/* harmony default export */ var Placeholdervue_type_script_lang_js = ({
-  name: 'vue-treeselect--placeholder',
-  inject: ['instance'],
-  render: function render() {
-    var h = arguments[0];
-    var instance = this.instance;
-    var placeholderClass = {
-      'vue-treeselect__placeholder': true,
-      'vue-treeselect-helper-zoom-effect-off': true,
-      'vue-treeselect-helper-hide': instance.hasValue || instance.trigger.searchQuery
-    };
-    return (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createVNode)("div", {
-      "class": placeholderClass
-    }, [instance.placeholder]);
-  }
-});
-;// CONCATENATED MODULE: ./src/components/Placeholder.vue
-
-
-
-const Placeholder_exports_ = Placeholdervue_type_script_lang_js;
-
-/* harmony default export */ var Placeholder = (Placeholder_exports_);
-;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/SingleValue.vue?vue&type=script&lang=js
-
-
-
-/* harmony default export */ var SingleValuevue_type_script_lang_js = ({
-  name: 'vue-treeselect--single-value',
-  inject: ['instance'],
-  methods: {
-    renderSingleValueLabel: function renderSingleValueLabel() {
-      var instance = this.instance;
-      var node = instance.selectedNodes[0];
-      var customValueLabelRenderer = instance.$slots['value-label'];
-      return customValueLabelRenderer ? customValueLabelRenderer({
-        node: node
-      }) : node.label;
-    }
-  },
-  render: function render() {
-    var h = arguments[0];
-    var instance = this.instance,
-        renderValueContainer = this.$parent.renderValueContainer;
-    var shouldShowValue = instance.hasValue && !instance.trigger.searchQuery;
-    return renderValueContainer([shouldShowValue && (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createVNode)("div", {
-      "class": "vue-treeselect__single-value"
-    }, [this.renderSingleValueLabel()]), (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createVNode)(Placeholder, null, null), (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createVNode)(Input, {
-      "ref": "input"
-    }, null)]);
-  }
-});
-;// CONCATENATED MODULE: ./src/components/SingleValue.vue
-
-
-
-const SingleValue_exports_ = SingleValuevue_type_script_lang_js;
-
-/* harmony default export */ var SingleValue = (SingleValue_exports_);
-;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[4]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/icons/Delete.vue?vue&type=template&id=12b4a02e
-
-var _hoisted_1 = {
-  xmlns: "http://www.w3.org/2000/svg",
-  viewBox: "0 0 348.333 348.333"
-};
-
-var _hoisted_2 = /*#__PURE__*/(0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createElementVNode)("path", {
-  d: "M336.559 68.611L231.016 174.165l105.543 105.549c15.699 15.705 15.699 41.145 0 56.85-7.844 7.844-18.128 11.769-28.407 11.769-10.296 0-20.581-3.919-28.419-11.769L174.167 231.003 68.609 336.563c-7.843 7.844-18.128 11.769-28.416 11.769-10.285 0-20.563-3.919-28.413-11.769-15.699-15.698-15.699-41.139 0-56.85l105.54-105.549L11.774 68.611c-15.699-15.699-15.699-41.145 0-56.844 15.696-15.687 41.127-15.687 56.829 0l105.563 105.554L279.721 11.767c15.705-15.687 41.139-15.687 56.832 0 15.705 15.699 15.705 41.145.006 56.844z"
-}, null, -1);
-
-var _hoisted_3 = [_hoisted_2];
-function Deletevue_type_template_id_12b4a02e_render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.openBlock)(), (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createElementBlock)("svg", _hoisted_1, _hoisted_3);
-}
-;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/icons/Delete.vue?vue&type=script&lang=js
-/* harmony default export */ var Deletevue_type_script_lang_js = ({
-  name: 'vue-treeselect--x'
-});
-// EXTERNAL MODULE: ./node_modules/vue-loader/dist/exportHelper.js
-var exportHelper = __webpack_require__(3744);
-;// CONCATENATED MODULE: ./src/components/icons/Delete.vue
-
-
-
-
-;
-const Delete_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(Deletevue_type_script_lang_js, [['render',Deletevue_type_template_id_12b4a02e_render]])
-
-/* harmony default export */ var Delete = (Delete_exports_);
 ;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/MultiValueItem.vue?vue&type=script&lang=js
 
 
@@ -8044,6 +8012,31 @@ const Delete_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(Deletevue_t
 const MultiValueItem_exports_ = MultiValueItemvue_type_script_lang_js;
 
 /* harmony default export */ var MultiValueItem = (MultiValueItem_exports_);
+;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Placeholder.vue?vue&type=script&lang=js
+
+/* harmony default export */ var Placeholdervue_type_script_lang_js = ({
+  name: 'vue-treeselect--placeholder',
+  inject: ['instance'],
+  render: function render() {
+    var h = arguments[0];
+    var instance = this.instance;
+    var placeholderClass = {
+      'vue-treeselect__placeholder': true,
+      'vue-treeselect-helper-zoom-effect-off': true,
+      'vue-treeselect-helper-hide': instance.hasValue || instance.trigger.searchQuery
+    };
+    return (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createVNode)("div", {
+      "class": placeholderClass
+    }, [instance.placeholder]);
+  }
+});
+;// CONCATENATED MODULE: ./src/components/Placeholder.vue
+
+
+
+const Placeholder_exports_ = Placeholdervue_type_script_lang_js;
+
+/* harmony default export */ var Placeholder = (Placeholder_exports_);
 ;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/MultiValue.vue?vue&type=script&lang=js
 
 
@@ -8059,24 +8052,24 @@ const MultiValueItem_exports_ = MultiValueItemvue_type_script_lang_js;
     renderMultiValueItems: function renderMultiValueItems() {
       var h = this.$createElement;
       var instance = this.instance;
-      return instance.internalValue.slice(0, instance.limit).map(instance.getNode).map(function (node) {
+      return h(instance.internalValue.slice(0, instance.limit).map(instance.getNode).map(function (node) {
         return (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createVNode)(MultiValueItem, {
           "key": "multi-value-item-".concat(node.id),
           "node": node
         }, null);
-      });
+      }));
     },
     renderExceedLimitTip: function renderExceedLimitTip() {
       var h = this.$createElement;
       var instance = this.instance;
       var count = instance.internalValue.length - instance.limit;
       if (count <= 0) return null;
-      return (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createVNode)("div", {
+      return h((0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createVNode)("div", {
         "class": "vue-treeselect__limit-tip vue-treeselect-helper-zoom-effect-off",
         "key": "exceed-limit-tip"
       }, [(0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createVNode)("span", {
         "class": "vue-treeselect__limit-tip-text"
-      }, [instance.limitText(count)])]);
+      }, [instance.limitText(count)])]));
     }
   },
   render: function render() {
@@ -8115,35 +8108,44 @@ const MultiValueItem_exports_ = MultiValueItemvue_type_script_lang_js;
 const MultiValue_exports_ = MultiValuevue_type_script_lang_js;
 
 /* harmony default export */ var MultiValue = (MultiValue_exports_);
-;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[4]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/icons/Arrow.vue?vue&type=template&id=5d5151cb
+;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/SingleValue.vue?vue&type=script&lang=js
 
-var Arrowvue_type_template_id_5d5151cb_hoisted_1 = {
-  xmlns: "http://www.w3.org/2000/svg",
-  viewBox: "0 0 292.362 292.362"
-};
 
-var Arrowvue_type_template_id_5d5151cb_hoisted_2 = /*#__PURE__*/(0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createElementVNode)("path", {
-  d: "M286.935 69.377c-3.614-3.617-7.898-5.424-12.848-5.424H18.274c-4.952 0-9.233 1.807-12.85 5.424C1.807 72.998 0 77.279 0 82.228c0 4.948 1.807 9.229 5.424 12.847l127.907 127.907c3.621 3.617 7.902 5.428 12.85 5.428s9.233-1.811 12.847-5.428L286.935 95.074c3.613-3.617 5.427-7.898 5.427-12.847 0-4.948-1.814-9.229-5.427-12.85z"
-}, null, -1);
 
-var Arrowvue_type_template_id_5d5151cb_hoisted_3 = [Arrowvue_type_template_id_5d5151cb_hoisted_2];
-function Arrowvue_type_template_id_5d5151cb_render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.openBlock)(), (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createElementBlock)("svg", Arrowvue_type_template_id_5d5151cb_hoisted_1, Arrowvue_type_template_id_5d5151cb_hoisted_3);
-}
-;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/icons/Arrow.vue?vue&type=script&lang=js
-/* harmony default export */ var Arrowvue_type_script_lang_js = ({
-  name: 'vue-treeselect--arrow'
+/* harmony default export */ var SingleValuevue_type_script_lang_js = ({
+  name: 'vue-treeselect--single-value',
+  inject: ['instance'],
+  methods: {
+    renderSingleValueLabel: function renderSingleValueLabel() {
+      var instance = this.instance;
+      var node = instance.selectedNodes[0];
+      var customValueLabelRenderer = instance.$slots['value-label'];
+      return customValueLabelRenderer ? customValueLabelRenderer({
+        node: node
+      }) : node.label;
+    }
+  },
+  render: function render() {
+    var h = arguments[0];
+    var instance = this.instance,
+        renderValueContainer = this.$parent.renderValueContainer;
+    var shouldShowValue = instance.hasValue && !instance.trigger.searchQuery;
+    return renderValueContainer([shouldShowValue && (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createVNode)("div", {
+      "class": "vue-treeselect__single-value"
+    }, [this.renderSingleValueLabel()]), (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createVNode)(Placeholder, null, null), (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createVNode)(Input, {
+      "ref": "input"
+    }, null)]);
+  }
 });
-;// CONCATENATED MODULE: ./src/components/icons/Arrow.vue
+;// CONCATENATED MODULE: ./src/components/SingleValue.vue
 
 
 
+const SingleValue_exports_ = SingleValuevue_type_script_lang_js;
 
-;
-const Arrow_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(Arrowvue_type_script_lang_js, [['render',Arrowvue_type_template_id_5d5151cb_render]])
-
-/* harmony default export */ var Arrow = (Arrow_exports_);
+/* harmony default export */ var SingleValue = (SingleValue_exports_);
 ;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[1]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Control.vue?vue&type=script&lang=js
+
 
 
 
@@ -8198,13 +8200,13 @@ const Arrow_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(Arrowvue_typ
       var instance = this.instance;
       var title = instance.multiple ? instance.clearAllText : instance.clearValueText;
       if (!this.shouldShowX) return null;
-      return (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createVNode)("div", {
+      return h((0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createVNode)("div", {
         "class": "vue-treeselect__x-container",
         "title": title,
         "onMousedown": this.handleMouseDownOnX
       }, [(0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createVNode)(Delete, {
         "class": "vue-treeselect__x"
-      }, null)]);
+      }, null)]));
     },
     renderArrow: function renderArrow() {
       var h = this.$createElement;
@@ -8214,12 +8216,12 @@ const Arrow_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(Arrowvue_typ
         'vue-treeselect__control-arrow--rotated': instance.menu.isOpen
       };
       if (!this.shouldShowArrow) return null;
-      return (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createVNode)("div", {
+      return h((0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createVNode)("div", {
         "class": "vue-treeselect__control-arrow-container",
         "onMousedown": this.handleMouseDownOnArrow
       }, [(0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createVNode)(Arrow, {
         "class": arrowClass
-      }, null)]);
+      }, null)]));
     },
     handleMouseDownOnX: onLeftClick(function handleMouseDownOnX(evt) {
       /**
@@ -8263,9 +8265,9 @@ const Arrow_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(Arrowvue_typ
     // This is meant to be called by child `<Value />` component.
     renderValueContainer: function renderValueContainer(children) {
       var h = this.$createElement;
-      return (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createVNode)("div", {
+      return h((0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createVNode)("div", {
         "class": "vue-treeselect__value-container"
-      }, [children]);
+      }, [children]));
     }
   },
   render: function render() {
@@ -8563,18 +8565,18 @@ var Option = {
         'vue-treeselect__option--matched': instance.localSearch.active && node.isMatched,
         'vue-treeselect__option--hide': !this.shouldShow
       };
-      return (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createVNode)("div", {
+      return h((0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createVNode)("div", {
         "class": optionClass,
         "onMouseenter": this.handleMouseEnterOption,
         "data-id": node.id
-      }, [this.renderArrow(), this.renderLabelContainer([this.renderCheckboxContainer([this.renderCheckbox()]), this.renderLabel()])]);
+      }, [this.renderArrow(), this.renderLabelContainer([this.renderCheckboxContainer([this.renderCheckbox()]), this.renderLabel()])]));
     },
     renderSubOptionsList: function renderSubOptionsList() {
       var h = this.$createElement;
       if (!this.shouldExpand) return null;
-      return (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createVNode)("div", {
+      return h((0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createVNode)("div", {
         "class": "vue-treeselect__list"
-      }, [this.renderSubOptions(), this.renderNoChildrenTip(), this.renderLoadingChildrenTip(), this.renderLoadingChildrenErrorTip()]);
+      }, [this.renderSubOptions(), this.renderNoChildrenTip(), this.renderLoadingChildrenTip(), this.renderLoadingChildrenErrorTip()]));
     },
     renderArrow: function renderArrow() {
       var h = this.$createElement;
@@ -8587,7 +8589,7 @@ var Option = {
           'vue-treeselect__option-arrow': true,
           'vue-treeselect__option-arrow--rotated': this.shouldExpand
         };
-        return (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createVNode)("div", {
+        return h((0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createVNode)("div", {
           "class": "vue-treeselect__option-arrow-container",
           "onMousedown": this.handleMouseDownOnArrow
         }, [(0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createVNode)(external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.Transition, {
@@ -8599,7 +8601,7 @@ var Option = {
               "class": arrowClass
             }, null)];
           }
-        })]);
+        })]));
       } // For leaf nodes, we render a placeholder to keep its label aligned to
       // branch nodes. Unless there is no branch nodes at all (a normal
       // non-tree select).
@@ -8651,9 +8653,9 @@ var Option = {
       if (!minusMark) minusMark = (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createVNode)("span", {
         "class": "vue-treeselect__minus-mark"
       }, null);
-      return (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createVNode)("span", {
+      return h((0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createVNode)("span", {
         "class": checkboxClass
-      }, [checkMark, minusMark]);
+      }, [checkMark, minusMark]));
     },
     renderLabel: function renderLabel() {
       var h = this.$createElement;
@@ -8671,50 +8673,50 @@ var Option = {
         labelClassName: labelClassName,
         countClassName: countClassName
       });
-      return (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createVNode)("label", {
+      return h((0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createVNode)("label", {
         "class": labelClassName
       }, [node.label, shouldShowCount && (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createVNode)("span", {
         "class": countClassName
-      }, [(0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createTextVNode)("("), count, (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createTextVNode)(")")])]);
+      }, [(0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createTextVNode)("("), count, (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createTextVNode)(")")])]));
     },
     renderSubOptions: function renderSubOptions() {
       var h = this.$createElement;
       var node = this.node;
       if (!node.childrenStates.isLoaded) return null;
-      return node.children.map(function (childNode) {
+      return h(node.children.map(function (childNode) {
         return (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createVNode)((0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.resolveComponent)("vue-treeselect--option"), {
           "node": childNode,
           "key": childNode.id
         }, null);
-      });
+      }));
     },
     renderNoChildrenTip: function renderNoChildrenTip() {
       var h = this.$createElement;
       var instance = this.instance,
           node = this.node;
       if (!node.childrenStates.isLoaded || node.children.length) return null;
-      return (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createVNode)(Tip, {
+      return h((0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createVNode)(Tip, {
         "type": "no-children",
         "icon": "warning"
       }, {
         default: function _default() {
           return [instance.noChildrenText];
         }
-      });
+      }));
     },
     renderLoadingChildrenTip: function renderLoadingChildrenTip() {
       var h = this.$createElement;
       var instance = this.instance,
           node = this.node;
       if (!node.childrenStates.isLoading) return null;
-      return (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createVNode)(Tip, {
+      return h((0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createVNode)(Tip, {
         "type": "loading",
         "icon": "loader"
       }, {
         default: function _default() {
           return [instance.loadingText];
         }
-      });
+      }));
     },
     renderLoadingChildrenErrorTip: function renderLoadingChildrenErrorTip() {
       var _this = this;
@@ -8723,7 +8725,7 @@ var Option = {
       var instance = this.instance,
           node = this.node;
       if (!node.childrenStates.loadingError) return null;
-      return (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createVNode)(Tip, {
+      return h((0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createVNode)(Tip, {
         "type": "error",
         "icon": "error"
       }, {
@@ -8734,7 +8736,7 @@ var Option = {
             "onMousedown": _this.handleMouseDownOnRetry
           }, [instance.retryText])];
         }
-      });
+      }));
     },
     handleMouseEnterOption: function handleMouseEnterOption(evt) {
       var instance = this.instance,
@@ -8776,7 +8778,7 @@ var Option = {
       'vue-treeselect__list-item': true
     }, "vue-treeselect__indent-level-".concat(indentLevel), true);
 
-    return (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createVNode)("div", {
+    return h((0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createVNode)("div", {
       "class": listItemClass
     }, [this.renderOption(), node.isBranch ? (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createVNode)(external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.Transition, {
       "name": "vue-treeselect__list--transition"
@@ -8784,7 +8786,7 @@ var Option = {
       default: function _default() {
         return [_slot];
       }
-    }) : '']);
+    }) : '']));
   }
 }; // eslint-disable-next-line vue/require-direct-export
 

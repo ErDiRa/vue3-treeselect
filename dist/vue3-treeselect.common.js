@@ -7613,12 +7613,6 @@ function deepExtend(target, source) {
 
 
 
-
-
-function _isSlot(s) {
-  return typeof s === 'function' || Object.prototype.toString.call(s) === '[object Object]' && !(0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.isVNode)(s);
-}
-
 var keysThatRequireMenuBeingOpen = [KEY_CODES.ENTER, KEY_CODES.END, KEY_CODES.HOME, KEY_CODES.ARROW_LEFT, KEY_CODES.ARROW_UP, KEY_CODES.ARROW_RIGHT, KEY_CODES.ARROW_DOWN];
 /* harmony default export */ var Inputvue_type_script_lang_js = ({
   name: 'vue-treeselect--input',
@@ -7859,11 +7853,7 @@ var keysThatRequireMenuBeingOpen = [KEY_CODES.ENTER, KEY_CODES.END, KEY_CODES.HO
 
       return (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createVNode)("div", (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.mergeProps)({
         "class": "vue-treeselect__input-container"
-      }, props), _isSlot(children) ? children : {
-        default: function _default() {
-          return [children];
-        }
-      });
+      }, props), [children]);
     },
     renderInput: function renderInput() {
       var h = this.$createElement;
@@ -8005,12 +7995,6 @@ const Delete_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(Deletevue_t
 
 
 
-
-
-function MultiValueItemvue_type_script_lang_js_isSlot(s) {
-  return typeof s === 'function' || Object.prototype.toString.call(s) === '[object Object]' && !(0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.isVNode)(s);
-}
-
 /* harmony default export */ var MultiValueItemvue_type_script_lang_js = ({
   name: 'vue-treeselect--multi-value-item',
   inject: ['instance'],
@@ -8048,11 +8032,7 @@ function MultiValueItemvue_type_script_lang_js_isSlot(s) {
       "onMousedown": this.handleMouseDown
     }, [(0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createVNode)("span", {
       "class": "vue-treeselect__multi-value-label"
-    }, MultiValueItemvue_type_script_lang_js_isSlot(labelRenderer) ? labelRenderer : {
-      default: function _default() {
-        return [labelRenderer];
-      }
-    }), (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createVNode)("span", {
+    }, [labelRenderer]), (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createVNode)("span", {
       "class": "vue-treeselect__icon vue-treeselect__value-remove"
     }, [(0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createVNode)(Delete, null, null)])])]);
   }
@@ -8172,11 +8152,6 @@ const Arrow_exports_ = /*#__PURE__*/(0,exportHelper/* default */.Z)(Arrowvue_typ
 
 
 
-
-function Controlvue_type_script_lang_js_isSlot(s) {
-  return typeof s === 'function' || Object.prototype.toString.call(s) === '[object Object]' && !(0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.isVNode)(s);
-}
-
 /* harmony default export */ var Controlvue_type_script_lang_js = ({
   name: 'vue-treeselect--control',
   inject: ['instance'],
@@ -8290,11 +8265,7 @@ function Controlvue_type_script_lang_js_isSlot(s) {
       var h = this.$createElement;
       return (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createVNode)("div", {
         "class": "vue-treeselect__value-container"
-      }, Controlvue_type_script_lang_js_isSlot(children) ? children : {
-        default: function _default() {
-          return [children];
-        }
-      });
+      }, [children]);
     }
   },
   render: function render() {
@@ -8553,7 +8524,7 @@ const Tip_exports_ = Tipvue_type_script_lang_js;
 
 
 
-function Optionvue_type_script_lang_js_isSlot(s) {
+function _isSlot(s) {
   return typeof s === 'function' || Object.prototype.toString.call(s) === '[object Object]' && !(0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.isVNode)(s);
 }
 
@@ -8612,8 +8583,6 @@ var Option = {
       if (instance.shouldFlattenOptions && this.shouldShow) return null;
 
       if (node.isBranch) {
-        var _slot;
-
         var arrowClass = {
           'vue-treeselect__option-arrow': true,
           'vue-treeselect__option-arrow--rotated': this.shouldExpand
@@ -8624,11 +8593,11 @@ var Option = {
         }, [(0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createVNode)(external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.Transition, {
           "name": "vue-treeselect__option-arrow--prepare",
           "appear": true
-        }, Optionvue_type_script_lang_js_isSlot(_slot = (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createVNode)(Arrow, {
-          "class": arrowClass
-        }, null)) ? _slot : {
+        }, {
           default: function _default() {
-            return [_slot];
+            return [(0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createVNode)(Arrow, {
+              "class": arrowClass
+            }, null)];
           }
         })]);
       } // For leaf nodes, we render a placeholder to keep its label aligned to
@@ -8652,11 +8621,7 @@ var Option = {
       return (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createVNode)("div", {
         "class": "vue-treeselect__label-container",
         "onMousedown": this.handleMouseDownOnLabelContainer
-      }, Optionvue_type_script_lang_js_isSlot(children) ? children : {
-        default: function _default() {
-          return [children];
-        }
-      });
+      }, [children]);
     },
     renderCheckboxContainer: function renderCheckboxContainer(children) {
       var h = this.$createElement;
@@ -8666,11 +8631,7 @@ var Option = {
       if (instance.disableBranchNodes && node.isBranch) return null;
       return (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createVNode)("div", {
         "class": "vue-treeselect__checkbox-container"
-      }, Optionvue_type_script_lang_js_isSlot(children) ? children : {
-        default: function _default() {
-          return [children];
-        }
-      });
+      }, [children]);
     },
     renderCheckbox: function renderCheckbox() {
       var h = this.$createElement;
@@ -8805,7 +8766,7 @@ var Option = {
     })
   },
   render: function render() {
-    var _slot2;
+    var _slot;
 
     var h = arguments[0];
     var node = this.node;
@@ -8819,9 +8780,9 @@ var Option = {
       "class": listItemClass
     }, [this.renderOption(), node.isBranch ? (0,external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.createVNode)(external_commonjs_vue_commonjs2_vue_root_Vue_namespaceObject.Transition, {
       "name": "vue-treeselect__list--transition"
-    }, Optionvue_type_script_lang_js_isSlot(_slot2 = this.renderSubOptionsList()) ? _slot2 : {
+    }, _isSlot(_slot = this.renderSubOptionsList()) ? _slot : {
       default: function _default() {
-        return [_slot2];
+        return [_slot];
       }
     }) : '']);
   }

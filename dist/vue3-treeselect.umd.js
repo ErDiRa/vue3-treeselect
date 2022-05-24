@@ -8089,6 +8089,7 @@ const MultiValueItem_exports_ = MultiValueItemvue_type_script_lang_js;
 
 
 
+
 /* harmony default export */ var MultiValuevue_type_script_lang_js = ({
   name: 'vue-treeselect--multi-value',
   inject: ['instance'],
@@ -8128,7 +8129,7 @@ const MultiValueItem_exports_ = MultiValueItemvue_type_script_lang_js;
     //   },
     // }
 
-    return renderValueContainer((0,external_commonjs_vue_commonjs2_vue_root_Vue_.createVNode)((0,external_commonjs_vue_commonjs2_vue_root_Vue_.resolveComponent)("TransitionGroup"), {
+    return renderValueContainer((0,external_commonjs_vue_commonjs2_vue_root_Vue_.createVNode)(external_commonjs_vue_commonjs2_vue_root_Vue_.TransitionGroup, {
       "class": "vue-treeselect__multi-value",
       "tag": "div",
       "name": "vue-treeselect__multi-value-item--transition",
@@ -8569,6 +8570,7 @@ const Tip_exports_ = Tipvue_type_script_lang_js;
 
 
 
+
 function Optionvue_type_script_lang_js_isSlot(s) {
   return typeof s === 'function' || Object.prototype.toString.call(s) === '[object Object]' && !(0,external_commonjs_vue_commonjs2_vue_root_Vue_.isVNode)(s);
 }
@@ -8637,7 +8639,7 @@ var Option = {
         return (0,external_commonjs_vue_commonjs2_vue_root_Vue_.createVNode)("div", {
           "class": "vue-treeselect__option-arrow-container",
           "onMousedown": this.handleMouseDownOnArrow
-        }, [(0,external_commonjs_vue_commonjs2_vue_root_Vue_.createVNode)((0,external_commonjs_vue_commonjs2_vue_root_Vue_.resolveComponent)("Transition"), {
+        }, [(0,external_commonjs_vue_commonjs2_vue_root_Vue_.createVNode)(external_commonjs_vue_commonjs2_vue_root_Vue_.Transition, {
           "name": "vue-treeselect__option-arrow--prepare",
           "appear": true
         }, Optionvue_type_script_lang_js_isSlot(_slot = (0,external_commonjs_vue_commonjs2_vue_root_Vue_.createVNode)(Arrow, {
@@ -8833,7 +8835,7 @@ var Option = {
 
     return (0,external_commonjs_vue_commonjs2_vue_root_Vue_.createVNode)("div", {
       "class": listItemClass
-    }, [this.renderOption(), node.isBranch ? (0,external_commonjs_vue_commonjs2_vue_root_Vue_.createVNode)((0,external_commonjs_vue_commonjs2_vue_root_Vue_.resolveComponent)("Transition"), {
+    }, [this.renderOption(), node.isBranch ? (0,external_commonjs_vue_commonjs2_vue_root_Vue_.createVNode)(external_commonjs_vue_commonjs2_vue_root_Vue_.Transition, {
       "name": "vue-treeselect__list--transition"
     }, Optionvue_type_script_lang_js_isSlot(_slot2 = this.renderSubOptionsList()) ? _slot2 : {
       default: function _default() {
@@ -8852,6 +8854,7 @@ const Option_exports_ = Optionvue_type_script_lang_js;
 
 /* harmony default export */ var components_Option = (Option_exports_);
 ;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-85.use[1]!./node_modules/cache-loader/dist/cjs.js??ruleSet[0].use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[1]!./src/components/Menu.vue?vue&type=script&lang=js
+
 
 
 
@@ -9141,7 +9144,7 @@ var directionMap = {
       "ref": "menu-container",
       "class": "vue-treeselect__menu-container",
       "style": this.menuContainerStyle
-    }, [(0,external_commonjs_vue_commonjs2_vue_root_Vue_.createVNode)((0,external_commonjs_vue_commonjs2_vue_root_Vue_.resolveComponent)("Transition"), {
+    }, [(0,external_commonjs_vue_commonjs2_vue_root_Vue_.createVNode)(external_commonjs_vue_commonjs2_vue_root_Vue_.Transition, {
       "name": "vue-treeselect__menu--transition"
     }, Menuvue_type_script_lang_js_isSlot(_slot = this.renderMenu()) ? _slot : {
       default: function _default() {

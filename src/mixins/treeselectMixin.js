@@ -1,21 +1,10 @@
-import fuzzysearch from 'fuzzysearch'
+import fuzzysearch from 'fuzzysearch';
+
+import { constant, createMap, find, identity, includes, isNaN, isPromise, last as getLast, once, onLeftClick, quickDiff, removeFromArray, scrollIntoView, warning } from '../utils';
 
 import {
-  warning,
-  onLeftClick, scrollIntoView,
-  isNaN, isPromise, once,
-  identity, constant, createMap,
-  quickDiff, last as getLast, includes, find, removeFromArray,
-} from '../utils'
-
-import {
-  NO_PARENT_NODE,
-  UNCHECKED, INDETERMINATE, CHECKED,
-  LOAD_ROOT_OPTIONS, LOAD_CHILDREN_OPTIONS, ASYNC_SEARCH,
-  ALL, BRANCH_PRIORITY, LEAF_PRIORITY, ALL_WITH_INDETERMINATE,
-  ALL_CHILDREN, ALL_DESCENDANTS, LEAF_CHILDREN, LEAF_DESCENDANTS,
-  ORDER_SELECTED, LEVEL, INDEX,
-} from '../constants'
+  ALL, ALL_CHILDREN, ALL_DESCENDANTS, ALL_WITH_INDETERMINATE, ASYNC_SEARCH, BRANCH_PRIORITY, CHECKED, INDETERMINATE, INDEX, LEAF_CHILDREN, LEAF_DESCENDANTS, LEAF_PRIORITY, LEVEL, LOAD_CHILDREN_OPTIONS, LOAD_ROOT_OPTIONS, NO_PARENT_NODE, ORDER_SELECTED, UNCHECKED
+} from '../constants';
 
 function sortValueByIndex(a, b) {
   let i = 0
@@ -870,7 +859,7 @@ export default {
       this.$emit('search-change', this.trigger.searchQuery, this.getInstanceId())
     },
 
-    value() {
+    modelValue() {
       const nodeIdsFromValue = this.extractCheckedNodeIdsFromValue()
       const hasChanged = quickDiff(nodeIdsFromValue, this.internalValue)
       if (hasChanged) this.fixSelectedNodeIds(nodeIdsFromValue)
@@ -1594,12 +1583,12 @@ export default {
             //   isLoaded,
             // })
             normalized.childrenStates = {...createAsyncOptionsStates(),isLoaded}
-            
+
             // this.$ set(normalized, 'isExpanded', typeof isDefaultExpanded === 'boolean'
             //   ? isDefaultExpanded
             //   : level < this.defaultExpandLevel)
             normalized.isExpanded = typeof isDefaultExpanded === 'boolean' ? isDefaultExpanded : level < this.defaultExpandLevel;
-            
+
             // this.$ set(normalized, 'hasMatchedDescendants', false)
             // this.$ set(normalized, 'hasDisabledDescendants', false)
             // this.$ set(normalized, 'isExpandedOnSearch', false)
